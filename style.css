@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	transition:all 0.2s;
+}
+.dash{
+	height:100vh;
+	background-color:#ebebeb;
+	padding-top:5vw;
+
+}
+#weather{
+	background-color: burlywood;
+	text-align: center;
+	border-radius:7px;
+	box-shadow:0 0 4px 4px rgba(0,0,0,0.4);
+	padding:1.5vw;
+	cursor:pointer;
+	font-weight:bold;
+
+}
+#box{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.flx{
+	display:flex;
+}
+.flx .box1,.flx .box2{
+	width:50%;
+}
+.box2 p{
+	display:flex;
+	justify-content: space-between;
+	border-bottom: 1px solid rgb(202, 195, 195);
+    padding: 0.5rem;
+}
+.flx1{
+	display:flex;
+}
+.flx1 div{
+	width:50%;
+}
+.flx1-child1{
+	display:flex;
+
+	justify-content: end;
+
+}
+.flx1-child2 h2{
+	font-weight:800;
+	font-size:2.8rem;
+}
+.flx1-child1 img{
+	width: 100px;
+	height:100px;
+}
+#dropdown{
+    padding: 1rem;
+    transform-origin: top;
+    transform: scaleY(0);
+    background-color:#fff;
+  }
+ #dropdown.collapse{
+    transform: scaleY(1);
+    transition: 0.5s ease;
+}
+.btm{
+	display:flex;
+	justify-content: space-between;
+	padding-top:1.8rem;
+}
+.btm:nth-child(2) div
+{
+	font-weight: bold;
+}
+
+/**----for mobile ---------*/
+@media screen and (max-width:760px) {
+
+	
+}
