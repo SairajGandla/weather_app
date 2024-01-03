@@ -1,6 +1,6 @@
-const a = document.getElementById("weather");
-const b = document.getElementById("dropdown");
+const weather = document.getElementById("weather");
+const dropdown = document.getElementById("dropdown");
 
-a.addEventListener("click", () => {
-  b.classList.toggle("collapse");
+weather.addEventListener("click", () => {
+  dropdown.classList.toggle("collapse");
 });
