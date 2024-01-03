@@ -25,11 +25,21 @@
     margin: 0 auto;
 
 }
+#deg ,.fa-solid{
+	font-size:14px;
+}
+#deg sub{
+    font-weight: 100;
+    font-size: 10px;
+ }
+ #deg sup{
+    font-size: 10px;
+ }
 
-.flx{
+.flx,.flx1{
 	display:flex;
 }
-.flx .box1,.flx .box2{
+.box1,.box2,.flx1 div{
 	width:50%;
 }
 .box2 p{
@@ -38,19 +48,14 @@
 	border-bottom: 1px solid rgb(202, 195, 195);
     padding: 0.5rem;
 }
-.flx1{
-	display:flex;
-}
-.flx1 div{
-	width:50%;
-}
+
 .flx1-child1{
 	display:flex;
 
 	justify-content: end;
 
 }
-.flx1-child2 h2{
+.flx1-child2 h1{
 	font-weight:800;
 	font-size:2.8rem;
 }
@@ -80,6 +85,42 @@
 
 /**----for mobile ---------*/
 @media screen and (max-width:760px) {
+
+
+	*{
+        font-size: 9px;
+    }
+    #weather{
+      font-size: 1.2rem;
+    }
+    #dropdown{
+      padding: 0.3rem;
+    }
+    .box1,.box2{
+      padding: 0.5rem;
+    }
+    
+    .flx1-child1 img{
+        width: 40px;
+        height: 40px;
+     }
+     #box{
+      width: 90%;
+      height: fit-content;
+  }
+  #deg,.fa-solid{
+	font-size:7px;
+  }
+  #deg sub{
+ 
+   font-size: 4px;
+}
+#deg sup{
+   font-size: 6px;
+}
+#o{
+   font-size: 6px;
+}
 
 	
 }
